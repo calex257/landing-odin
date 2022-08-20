@@ -34,6 +34,7 @@
     font-size: 24px;
     margin-left: 10%;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .hero{
@@ -87,6 +88,7 @@
     color:#e5e7eb;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .header-container{
@@ -132,4 +134,76 @@
 }
 .info{
     margin-bottom: 100px;
+}
+.motto{
+    padding: 150px 10% 150px 10%;
+    background-color: #e5e7eb;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.author{
+    text-align: right;
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+    color: #1f2937;
+    font-size: 20px;
+}
+
+.wb{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f9faf8;
+    justify-self: flex-end;
+}
+
+.call-to-action{
+    padding:100px 10% 100px 10%;
+    
+}
+
+.call-container{
+    width: 100%;
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px 10% 50px 10%;
+    gap: 10%;
+    border-radius: 10px;
+}
+
+.bold-text{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.regular-text{
+    color:#f9faf8
+}
+
+.text-container{
+    width: 80%;
+}
+
+footer{
+    width: 100%;
+    height:100px;
+    background-color: #1f2937;
+    display: flex;
+}
+.copyright{
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color: #f9faf8;
+}
+a{
+    text-decoration: none;
+    color:inherit
 }
